@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Venom 2 - сайт о фильме</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../scripts/main.js"></script>
 </head>
-<body>
-  
+<body class="primary-bg">
+  <div class="container">
+    <header class="header">
+      <a href="/" class="logo-link">
+        <img width="46" height="71" src="../images/logo.png" alt="logo: venom 2">
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="../about" class="nav-list-link link-active">о фильме</a></li>
+          <li class="nav-list-item"><a href="../trailer" class="nav-list-link">трейлер</a></li>
+          <li class="nav-list-item"><a href="../actors" class="nav-list-link">актёры</a></li>
+          <li class="nav-list-item"><a href="../premier" class="nav-list-link">премьера</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <div class="col">
+        <h2 class="content-title">О фильме</h2>
+        <p class="content-text">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.</p>
+        <h2 class="content-subtitle">В главных ролях</h2>
+        <ul class="list">
+          <li class="list-item">Том Харди</li>
+          <li class="list-item">Мишель Уильямс</li>
+          <li class="list-item">Вуди Харрельсон</li>
+          <li class="list-item">Наоми Харрис</li>
+          <li class="list-item">Стивен Грэм</li>
+          <li class="list-item">Рейд Скотт</li>
+          <li class="list-item">Эд Кейр</li>
+          <li class="list-item">Шон Делани</li>
+          <li class="list-item">Уилльям Барбо</li>
+          <li class="list-item">Пегги Лу</li>
+        </ul>
+        <div class="trailer">
+          <button class="play">
+            <img class="play-icon" src="../images/play.svg" alt="icon: play">
+          </button>
+        </div>
+      </div>
+      <!-- /.col -->
+      <div class="col">
+        <div class="poster-wrapper">
+          <img src="../images/poster.jpg" alt="photo: venom 2 poster" class="poster">
+          <div class="creators">
+            <h2 class="content-subtitle">Режиссёр</h2>
+            <ul class="list">
+              <li class="list-item">Энди Серкис</li>
+            </ul>
+            <h2 class="content-subtitle">Сценарий</h2>
+            <ul class="list">
+              <li class="list-item">Келли Марсел</li>
+              <li class="list-item">Том Харди</li>
+            </ul>
+            <h2 class="content-subtitle">Режиссёр</h2>
+            <ul class="list">
+              <li class="list-item">Ави Арад</li>
+              <li class="list-item">Том Харди</li>
+              <li class="list-item">Келли Марсел</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.content -->
+  </div>
 </body>
 </html>
